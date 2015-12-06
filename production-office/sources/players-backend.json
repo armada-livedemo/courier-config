@@ -1,0 +1,24 @@
+[
+    {
+        "type": "git",
+        "repositories": [
+            "git@github.com:armada-livedemo/players-backend-config-secret.git"
+        ],
+        "ssh_key": "../keys/git@github.com.key",
+        "destinations": [
+            "armada@vagrant"
+        ]
+    },
+	{
+        "type": "git",
+        "repositories": [
+            "git@github.com:armada-livedemo/players-backend.git"
+        ],
+        "subdirectory": "config",
+		"destination_path": "players-backend-config",
+        "ssh_key": "../keys/git@github.com.key",
+        "destinations": [
+            "armada@vagrant"
+        ]
+    }
+]

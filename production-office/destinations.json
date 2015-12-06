@@ -1,0 +1,6 @@
+{
+    "armada@vagrant":
+    {
+        "type": "armada-local"
+    }
+}
